@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: comingsoon-page
-        image: bichoydemiane/testrepo:V1
+        image: bichoydemiane/testrepo:V2
         ports:
         - containerPort: 80
