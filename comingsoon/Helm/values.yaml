@@ -1,0 +1,13 @@
+replicaCount: 4
+
+image:
+  repository: bichoydemiane/testrepo
+  tag: "V2"
+  pullPolicy: IfNotPresent
+
+service:
+  type: NodePort
+  port: 80
+  targetPort: 80
+
+namespace: comingsoon
